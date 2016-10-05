@@ -30,6 +30,7 @@ export PATH=~/apps:$PATH
 export PATH=~/.local/bin:$PATH
 export PATH=$GOPATH/bin:$PATH
 
+export DEVTOOLS=1
 
 # Abrir la pestaña en la misma carpeta
 # http://unix.stackexchange.com/questions/93476/gnome-terminal-keep-track-of-directory-in-new-tab
