@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = spotify
+
+[Action]
+Description = Replace desktop icon with dark variant
+When = PostTransaction
+Exec = /usr/bin/sed -i '/Exec=spotify %U/c\Exec=bash -c "spotify %U & sleep 1 && xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT dark -name Spotify"' /usr/share/applications/spotify.desktop
