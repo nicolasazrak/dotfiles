@@ -1,0 +1,21 @@
+[user]
+	name = Nicolas Azrak
+	email = azrak.nicolas@gmail.com
+
+[core]
+        editor = nano
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	l = log --graph --color --decorate=short
+	ln = log --graph --color --decorate=full --name-status
+	lc =  log --graph --abbrev-commit --author-date-order --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --branches
+	ff = merge --ff-only
+	poh = push origin HEAD
+  fap = fetch --all --prune
+
+[diff]
+        compactionHeuristic = true
