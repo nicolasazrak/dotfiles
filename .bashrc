@@ -28,6 +28,7 @@ export STACK_INSTALL_PATH=~/.local/bin
 export PATH=~/.cabal/bin:$PATH
 export PATH=~/apps:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH=~/.stack/programs/x86_64-linux/ghc-7.10.3/bin/:$PATH
 export PATH=$GOPATH/bin:$PATH
 
 export DEVTOOLS=1
@@ -46,8 +47,9 @@ fi
 
 
 # added by travis gem
-[ -f /home/nico/.travis/travis.sh ] && source /home/nico/.travis/travis.sh
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 
 shopt -s checkwinsize
 shopt -s globstar
+

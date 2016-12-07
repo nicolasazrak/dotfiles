@@ -12,6 +12,7 @@ Plug 'josuegaleas/jay'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'metakirby5/codi.vim'
 
 call plug#end()
 
@@ -31,3 +32,4 @@ set nu
 set updatetime=250
 syntax on
 colorscheme jay
+

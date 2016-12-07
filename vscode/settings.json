@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily": "Hack",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 13,
+	 // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+		"**/.git": true,
+		"**/.idea": true,
+        "**/*.pyc": true,
+        "**/venv": true
+    },
+
+    "go.gobin" : "/home/nico/.go/bin",
+    "go.gopath": "/home/nico/.go/src/github.com/nicolasazrak/go-chasman-go/vendor:/home/nico/.go",
+
+    // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true
+    },
+    "workbench.editor.enablePreview": false,
+    "explorer.openEditors.visible": 0,
+    "eslint.autoFixOnSave": true,
+    "workbench.statusBar.visible": false,
+    "projectManager.openInNewWindow": false
+}
+
