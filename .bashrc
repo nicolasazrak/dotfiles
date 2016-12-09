@@ -53,3 +53,4 @@ fi
 shopt -s checkwinsize
 shopt -s globstar
 
+source /usr/share/nvm/init-nvm.sh
