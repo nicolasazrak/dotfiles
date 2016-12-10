@@ -8,7 +8,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 alias spdark='spotify %U & sleep 2 && xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT "dark" -name "Spotify"'
-alias code=visual-studio-code
 
 
 ## PS1 RELATED THINGS 
@@ -48,9 +47,9 @@ fi
 
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+[ -f /usr/share/nvm/init-nvm.sh ] && source /usr/share/nvm/init-nvm.sh
 
 
 shopt -s checkwinsize
 shopt -s globstar
 
-source /usr/share/nvm/init-nvm.sh
