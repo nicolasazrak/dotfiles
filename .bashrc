@@ -7,7 +7,6 @@
 
 alias ls='ls --color=auto'
 alias ll='ls -lh'
-alias spdark='spotify %U & sleep 2 && xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT "dark" -name "Spotify"'
 
 
 ## PS1 RELATED THINGS 
