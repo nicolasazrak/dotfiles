@@ -8,7 +8,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 
-
 ## PS1 RELATED THINGS 
 #
 # GREEN="\[$(tput setaf 2)\]"
@@ -47,8 +46,7 @@ fi
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 [ -f /usr/share/nvm/init-nvm.sh ] && source /usr/share/nvm/init-nvm.sh
-
+alias npm='echo "ke ace boludo? Estamos usando yarn!!!"'
 
 shopt -s checkwinsize
 shopt -s globstar
-
