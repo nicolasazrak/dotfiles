@@ -23,11 +23,14 @@
         "**/flow-typed": true
     },
     
+    "window.menuBarVisibility": "hidden",
     "workbench.editor.enablePreview": false,
     "explorer.openEditors.visible": 0,
     "eslint.autoFixOnSave": true,
     "projectManager.openInNewWindow": false,
     "markdown.preview.fontFamily": "Open Sans",
-    "git.autofetch": false
+    "git.autofetch": false,
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true
   }
 
