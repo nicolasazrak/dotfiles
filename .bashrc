@@ -19,7 +19,7 @@ PS1='\[\e[1;29m\][\u@\h \W]\$\[\e[0m\] '
 
 export VISUAL=gedit
 
-export GOPATH=~/.go
+export GOPATH=~/go
 export STACK_INSTALL_PATH=~/.local/bin
 
 export PATH=~/.cabal/bin:$PATH
@@ -28,7 +28,6 @@ export PATH=~/.local/bin:$PATH
 export PATH=~/.stack/programs/x86_64-linux/ghc-7.10.3/bin/:$PATH
 export PATH=$GOPATH/bin:$PATH
 
-export DEVTOOLS=1
 
 # Abrir la pestaña en la misma carpeta
 # http://unix.stackexchange.com/questions/93476/gnome-terminal-keep-track-of-directory-in-new-tab
