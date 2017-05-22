@@ -7,7 +7,7 @@ export EDITOR=nano
 export TERM="xterm-256color"
 export GOPATH=~/go
 export STACK_INSTALL_PATH=~/.local/bin
-export NODE_VERSION="6.4.0"
+export NODE_VERSION="6.9.4"
 
 export PATH=~/.cabal/bin:$PATH
 export PATH=~/apps:$PATH
