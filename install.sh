@@ -7,7 +7,7 @@ ln -s -b $PWD/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ln -s $PWD/.vimrc ~/.vimrc
 
 # Fonts 
-mkdir -p .config/fontconfig && ln -s $PWD/fonts.conf .config/fontconfig/fonts.conf
+mkdir -p .config/fontconfig && ln -s $PWD/fonts.conf ~/.config/fontconfig/fonts.conf
 fc-cache -f -v
 
 
