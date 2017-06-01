@@ -37,6 +37,7 @@ DISABLE_AUTO_TITLE="true"
 # plugins=(git)
 
 # Path to your oh-my-zsh installation.
+export PURE_GIT_PULL=0
 export ZSH=/home/nico/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 

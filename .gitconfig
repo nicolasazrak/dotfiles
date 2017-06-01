@@ -4,7 +4,7 @@
 
 [core]
     editor = nano
-    pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+    pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -RFX
 
 [alias]
 	co = checkout
