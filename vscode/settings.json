@@ -32,7 +32,8 @@
     "git.autofetch": false,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "One Dark",
-    "workbench.iconTheme": "material-icon-theme"
-  }
+    "workbench.colorTheme": "One Dark Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false
+}
 
