@@ -1,3 +1,5 @@
+[ -f ~/.zshrc.env ] && source ~/.zshrc.env # Env specific
+
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 
@@ -5,19 +7,15 @@ alias ll='ls -lh'
 export VISUAL=gedit
 export EDITOR=nano 
 export TERM="xterm-256color"
-export GOPATH=~/go
 export STACK_INSTALL_PATH=~/.local/bin
-export NODE_VERSION="6.9.4"
+export NODE_VERSION="6.11.1"
 
-export PATH=~/.cabal/bin:$PATH
 export PATH=~/apps:$PATH
+export PATH=~/go/bin:$PATH
 export PATH=~/.local/bin:$PATH
-export PATH=~/.stack/programs/x86_64-linux/ghc-7.10.3/bin/:$PATH
-export PATH=$GOPATH/bin:$PATH
-export PATH=/home/nico/.nvm/versions/node/v$NODE_VERSION/bin:$PATH
+export PATH=~/.nvm/versions/node/v$NODE_VERSION/bin:$PATH
 
 fpath=( "$HOME/.zfunctions" $fpath )
-
 
 # Abrir la pestaña en la misma carpeta
 # http://unix.stackexchange.com/questions/93476/gnome-terminal-keep-track-of-directory-in-new-tab
@@ -53,4 +51,3 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 source /usr/share/nvm/init-nvm.sh --no-use
-# alias npm='echo "ke ace boludo? Estamos usando yarn!!!"'
