@@ -33,6 +33,7 @@ DISABLE_AUTO_TITLE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
+plugins=(virtualenv zsh-syntax-highlighting)
 
 # Path to your oh-my-zsh installation.
 export PURE_GIT_PULL=0
@@ -43,12 +44,13 @@ source $ZSH/oh-my-zsh.sh
 # always load after source oh-my-zsh 
 autoload -U promptinit; promptinit
 prompt pure
+PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"
 
 export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${RBENV_ROOT}" ]; then
-  export PATH="${RBENV_ROOT}/bin:${PATH}"
-  eval "$(rbenv init -)"
-fi
+export PATH="${RBENV_ROOT}/bin:${PATH}"
+eval "$(rbenv init -)"
+
+
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 source /usr/share/nvm/init-nvm.sh --no-use
 
