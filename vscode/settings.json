@@ -4,7 +4,7 @@
     "editor.fontWeight": "bold",
     "editor.fontSize": 13,
     "editor.tabSize": 2,
-    
+
     // Configure glob patterns for excluding files and folders.
     "files.exclude": {
         "**/.git": true,
@@ -22,7 +22,7 @@
         "**/vendor": true,
         "**/flow-typed": true
     },
-    
+
     "explorer.autoReveal": false,
     "window.menuBarVisibility": "hidden",
     "workbench.editor.enablePreview": false,
@@ -34,6 +34,7 @@
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "One Dark Theme",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true
 }
 
