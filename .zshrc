@@ -51,3 +51,9 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 source /usr/share/nvm/init-nvm.sh --no-use
+
+# Fix for slow git operations
+# https://superuser.com/questions/458906/zsh-tab-completion-of-git-commands-is-very-slow-how-can-i-turn-it-off
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
