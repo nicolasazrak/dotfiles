@@ -19,7 +19,7 @@
   },
   "files.trimTrailingWhitespace": true,
 
-  "git.autofetch": false
+  "git.autofetch": false,
 
   // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
   "search.exclude": {
@@ -42,6 +42,6 @@
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
   "python.unitTest.pyTestEnabled": true,
-  "python.pythonPath": "${workspaceRoot}/venv/bin/python",
+  "python.pythonPath": "${workspaceRoot}/venv/bin/python"
 }
 
