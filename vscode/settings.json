@@ -11,6 +11,8 @@
 
   // Configure glob patterns for excluding files and folders.
   "files.exclude": {
+    "**/__pycache__/**": true,
+    "**/.cache/**": true,
     "**/.git": true,
     "**/.idea": true,
     "**/*.pyc": true,
@@ -23,10 +25,12 @@
 
   // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
   "search.exclude": {
+    "**/__pycache__/**": true,
+    "**/.cache/**": true,
     "**/node_modules": true,
     "**/bower_components": true,
     "**/vendor": true,
-    "coverage/**": true
+    "**/coverage/**": true
   },
 
   "workbench.editor.enablePreview": false,
