@@ -8,7 +8,7 @@ export VISUAL=gedit
 export EDITOR=nano 
 export TERM="xterm-256color"
 export STACK_INSTALL_PATH=~/.local/bin
-export NODE_VERSION="6.11.1"
+export NODE_VERSION="8.6.0"
 
 export PATH=~/apps:$PATH
 export PATH=~/go/bin:$PATH
