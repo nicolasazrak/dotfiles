@@ -11,6 +11,7 @@ ln -s -b $PWD/vscode/settings.json ~/.config/Code/User/settings.json
 ln -s -b $PWD/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 
 # Fonts
+yaourt -Sy noto-fonts noto-fonts-emoji
 mkdir -p .config/fontconfig && ln -s $PWD/fonts.conf ~/.config/fontconfig/fonts.conf
 fc-cache -f -v
 
