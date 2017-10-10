@@ -4,6 +4,7 @@
 ln -s $PWD/.bashrc ~/.bashrc
 ln -s $PWD/.vimrc ~/.vimrc
 ln -s $PWD/.gitconfig ~/.gitconfig
+sudo ln -s $PWD/spotify.hook /usr/share/libalpm/hooks/spotify.hook
 
 # VSCode
 mkdir -p  ~/.config/Code/User
