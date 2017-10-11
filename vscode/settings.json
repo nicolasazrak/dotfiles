@@ -6,7 +6,7 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": false,
+  "editor.codeLens": false,
   "explorer.openEditors.visible": 0,
   "explorer.autoReveal": false,
 
@@ -47,5 +47,6 @@
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
   "python.unitTest.pyTestEnabled": true,
-  "python.pythonPath": "${workspaceRoot}/venv/bin/python"
+  "python.pythonPath": "${workspaceRoot}/venv/bin/python",
+  "workbench.startupEditor": "newUntitledFile",
 }
