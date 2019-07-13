@@ -1,16 +1,28 @@
 {
-  // Place your settings in this file to overwrite the default settings
   "editor.fontFamily": "Hack",
-  "editor.fontWeight": "bold",
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
   "editor.codeLens": false,
+
   "explorer.openEditors.visible": 0,
   "explorer.autoReveal": false,
 
-  // Configure glob patterns for excluding files and folders.
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.visible": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+
+  "git.autofetch": false,
+
+  "files.trimTrailingWhitespace": true,
   "files.exclude": {
     "**/__pycache__/**": true,
     "**/.cache/**": true,
@@ -20,11 +32,6 @@
     "**/venv": true,
     "**/.nyc_output": true
   },
-  "files.trimTrailingWhitespace": true,
-
-  "git.autofetch": false,
-
-  // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
   "search.exclude": {
     "**/__pycache__/**": true,
     "**/.cache/**": true,
@@ -34,19 +41,17 @@
     "**/coverage/**": true
   },
 
-  "workbench.editor.enablePreview": false,
-  "workbench.statusBar.visible": true,
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.iconTheme": "material-icon-theme",
-
-  "eslint.autoFixOnSave": true,
-  "window.zoomLevel": 0,
-  "window.menuBarVisibility": "hidden",
+  // Language specifics...
 
   // Python settings
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
   "python.unitTest.pyTestEnabled": true,
   "python.pythonPath": "${workspaceRoot}/venv/bin/python",
-  "workbench.startupEditor": "newUntitledFile",
+
+  // Javascript
+  "eslint.autoFixOnSave": true,
+
+  // Rust
+  "rust-client.channel": "stable",
 }

@@ -4,7 +4,6 @@
 
 [core]
     editor = nano
-    pager = diff-so-fancy | less --tabs=1,5 -RFX
 
 [alias]
 	co = checkout
@@ -13,7 +12,7 @@
 	br = branch
 	l = log --graph --color --decorate=short
 	ln = log --graph --color --decorate=full --name-status
-	lc =  log --graph --abbrev-commit --author-date-order --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --branches
+	lc =  log --graph --abbrev-commit --decorate --oneline 
 	ff = merge --ff-only
 	poh = push origin HEAD
 	pohf = push --force-with-lease origin HEAD
@@ -24,3 +23,7 @@
 
 [http "https://gopkg.in"]
 	followRedirects = true
+
+[pager]
+    show = diff-so-fancy | less --tabs=4 -RFX
+    diff = diff-so-fancy | less --tabs=4 -RFX
